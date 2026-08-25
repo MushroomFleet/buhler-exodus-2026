@@ -883,6 +883,22 @@ Two citations in their own background section deserve to be read carefully.
 
 **A prior worker on an Air Force contract, doing the same experiment in vacuum on a torsion balance, found the force and traced it to device–chamber electrostatic interaction.** That is the single most relevant precedent in the field, it appears in their own patent, and nothing in three hours of transcript addresses how their configuration differs from Talley's. Image 2 — a torsion arm inside a chamber with a large copper disc mounted on the wall a short distance from the article's swept path — is the configuration Talley's result speaks to directly.
 
+**One further line in the same background section deserves attention it has never received.** The patent records that Thomas Townsend Brown — the origin of the entire Biefeld–Brown lineage this device descends from — *"discovered that a force was developed on a Coolidge tube when the tube was subjected to a high voltage."*
+
+**A Coolidge tube is an X-ray tube.** Its designed function is to accelerate electrons through the full anode potential in hard vacuum and stop them in a target. A device that fires electrons in one direction experiences a reaction force in the other; the anode also runs red-hot, driving convection and outgassing in the surrounding air. **The founding observation of this field was made on an apparatus with an obvious conventional momentum source built into its purpose.**
+
+The magnitude is calculable and is a useful calibration for everything in §12.4. For an electron beam:
+
+```
+F/P = √(2mₑ / eV) = 2.1 × 10⁻⁸ N/W at 25 kV
+```
+
+So 1 mA at 25 kV — 25 W — yields ~0.53 µN. Real, directional, propellantless-looking, and about six times better than a photon rocket. To reach the patent's own measured **237 µN** by this route requires ~11 kW of beam; to reach 50 mN, ~2.3 MW. Brown's observation was real and its scale was microscopic.
+
+This also grounds §14's X-ray finding historically rather than theoretically. Colour CRTs — mass-market descendants of the same tube technology, running 25–32 kV — were a **regulated radiological hazard**: a 1967 General Electric recall of over-voltage colour sets led directly to the US Radiation Control for Health and Safety Act of 1968 and the leaded-glass requirement (≈22–25% PbO in the funnel) that every subsequent CRT shipped with. **The hazard identified in D9 is not novel; it is sixty years old and legislated.** Its absence from the record is therefore more surprising, not less — and a 40 kV chamber with a large plain viewport has none of the shielding a 1970s television was legally required to carry.
+
+*Loosely held, but a large negative sample:* oscilloscope CRTs use **electrostatic deflection plates** — asymmetric electrode pairs at kV potentials in hard vacuum, which is this device's configuration class. They were mass-produced for seventy years by an industry acutely sensitive to anything that could disturb beam alignment, and no net thrust was ever reported. A bolted-down tube would not reveal a micronewton, so this settles nothing; it is simply a very large number of asymmetric electrode pairs in vacuum that behaved conventionally.
+
 ### 14.5 What the patent discloses that nothing else did
 
 Genuinely new and useful, and much of it closes CENA gaps:
