@@ -15,7 +15,7 @@ The claim under test in this repository is not the thruster. It is the method: t
 | `Buhler-research.md` | The research scratchpad. Physics assessment across 17 sections: the field-momentum and hidden-momentum lineage, the Feynman disk, the centre-of-energy theorem, the stated mechanism, the full thrust ledger, the patent derivation, a steelman of the proponents' case, an epistemic-status table, a 15-item discriminating-test list, and an image log. |
 | `Buhler-replication-CENA.md` | The challenge-loop pass. Parametric tagging, loops L1/L3/L4/L6/L7/L8/L9/L10, a 15-entry decision ledger, a costed bill of materials, and a termination-criteria table. |
 | `README.md` | This file. |
-| `LICENSE` | **Not yet chosen — fill this in.** |
+| `LICENSE` | **MIT** |
 
 ## What the loops produced
 
