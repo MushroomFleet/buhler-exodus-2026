@@ -12,10 +12,11 @@ The claim under test in this repository is not the thruster. It is the method: t
 
 | File | Role |
 |---|---|
-| `Buhler-research.md` | The research scratchpad. Physics assessment across 17 sections: the field-momentum and hidden-momentum lineage, the Feynman disk, the centre-of-energy theorem, the stated mechanism, the full thrust ledger, the patent derivation, a steelman of the proponents' case, an epistemic-status table, a 15-item discriminating-test list, and an image log. |
-| `Buhler-replication-CENA.md` | The challenge-loop pass. Parametric tagging, loops L1/L3/L4/L6/L7/L8/L9/L10, a 15-entry decision ledger, a costed bill of materials, and a termination-criteria table. |
+| `Buhler-research.md` | The research scratchpad. Physics assessment across eighteen sections (§0–§17): the field-momentum and hidden-momentum lineage, the Feynman disk, the centre-of-energy theorem, the stated mechanism, the full thrust ledger, the patent derivation and its four failure modes, the Coolidge-tube origin of the field, a steelman of the proponents' case, an epistemic-status table, a 15-item discriminating-test list, and an image log. |
+| `Buhler-replication-CENA.md` | The challenge-loop pass. Parametric tagging, loops L1/L3/L4/L6/L7/L8/L9/L10, a 16-entry decision ledger, a costed bill of materials, and a termination-criteria table. |
+| `harmonic-gearing-grounding.md` | **Method exhibit.** A grounding artifact on a *different* subject — phase locking in coupled oscillators — produced by the same collapse pass in a single short run. Included because it shows the M1 discipline at readable scale: `Buhler-research.md` is the same operation at 1,000+ lines, which makes it a poor template. Read this one to see the shape; read that one to see what the shape survives. |
 | `README.md` | This file. |
-| `LICENSE` | **MIT** |
+| `LICENSE` | MIT. |
 
 ## What the loops produced
 
@@ -31,7 +32,9 @@ Stated as findings, with the reasoning living in the artifacts.
 
 **Two facts, if published, would make replication meaningful.** The patent closed eight of ten actionability gaps — blade geometry, gap behaviour, dielectrics, 40 kV, polarity, scaling laws, and the full FEMM/MATLAB/COMSOL design loop are all public and have been since 2022. What remains is the device mass (without which no thrust-to-weight figure is checkable) and the definition of the dummy-plate control (the programme's strongest evidence, specified in one clause that does not say what it matches on). Publishing both would cost approximately nothing.
 
-**Three artifact classes were added that appear in no prior source:** Maxwell-stress deformation, electron-stimulated desorption (which survives both vacuum and power-off, and predicts the subjects' own puzzling 12-hour observation), and an unmentioned X-ray hazard — a 140 kV electrode pair in vacuum with sharp field-emitting features is an X-ray tube, and the chamber has a large viewport.
+**Two new artifact classes, and one very old one nobody had applied.** Maxwell-stress deformation and electron-stimulated desorption appear in no source consulted — the latter survives both hard vacuum and power-off, and predicts the subjects' own puzzling twelve-hour observation as well as their explanation does. The third, X-ray production, is not novel at all: a 40 kV electrode pair in hard vacuum with sharp field-emitting features is an X-ray tube, and colour CRTs at 25–32 kV were a legislated radiological hazard from 1968 onward. The finding is not the physics but its absence — sixty-year-old consumer shielding law has never been applied to an apparatus with a large plain viewport.
+
+**The founding observation of this entire field was made on an X-ray tube.** The patent's own background section records that Thomas Townsend Brown discovered the Biefeld–Brown effect as a force on a **Coolidge tube** under high voltage — a device whose designed function is to accelerate electrons through the full anode potential in vacuum and stop them in a target. Directional momentum is built into its purpose. Electron-beam thrust calibrates at F/P = 2.1 × 10⁻⁸ N/W, so Brown's force was real and microscopic; reaching the patent's own measured 237 µN by that route would take roughly 11 kW.
 
 ## How to use this
 
@@ -39,7 +42,7 @@ Stated as findings, with the reasoning living in the artifacts.
 
 **As a replication starting point.** Read `Buhler-replication-CENA.md` L6 for the Tier-0 protocol and bill of materials, L7 for the derived build parameters, and the revised L9 gap table for what the patent does and does not tell you. Then §7 of the research scratchpad for the fifteen discriminating tests, of which items 12–15 are the ones nobody has run.
 
-**As a method template.** Both files are structured to be copied. The pattern:
+**As a method template.** Start with `harmonic-gearing-grounding.md` — it is one question, one pass, five minutes, and the tagging discipline is visible without the volume. Then `Buhler-research.md` for what that structure looks like after a three-hour transcript, a patent, five images and eight fold-in passes, and `Buhler-replication-CENA.md` for the loops. The pattern:
 
 ```
 1. Collapse sources into one semantically named scratchpad.
@@ -79,7 +82,9 @@ Nothing in these artifacts demonstrates the effect is not real. They establish t
 
 ## License
 
-See `LICENSE`. **Not yet selected — choose one before publishing.**
+MIT — see [`LICENSE`](LICENSE).
+
+**A note on the safety findings.** MIT's warranty disclaimer covers this repository, and it should be read literally here. The apparatus described operates at 30–140 kV; the inventors describe their own version as "lethal at every possible instance." The X-ray hazard set out in `Buhler-replication-CENA.md` L10/F2 is raised in no source consulted, but it is emphatically **not a novel hazard** — colour television CRTs at comparable anode voltages were regulated for precisely this from 1968, which is why they shipped with leaded glass. Nothing here has been reviewed by a radiation-safety professional, and the vacuum tiers are where that matters. Anyone building from these documents assumes full responsibility for their own safety assessment.
 
 ## 📚 Citation
 
